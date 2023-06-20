@@ -1,0 +1,126 @@
+.content{
+    margin-top: 7rem;
+}
+
+.main-content{
+    min-height: 84vh;
+}
+
+.cards{
+    margin-bottom: 3rem;
+}
+
+/* Primary Button Edit */
+.btn-primary{
+    background-color: #cb1517;
+    border-color: #cb1517;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.content .btn-primary:hover {
+    background-color: #ba0003;
+    border-color: #ba0003;
+    color: #fff;
+}
+
+.content .btn-primary:active {
+    background-color: #ba0003;
+    border-color: #ba0003;
+    color: #fff;
+}
+
+.content .btn-primary:focus{
+    background-color: #ba0003;
+    border-color: #ba0003;
+    color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(203,21,23,.25);
+}
+
+/* Danger Button Edit */
+.btn-danger{
+    color: #cb1517;
+    background-color: #c7cdd0;
+    border-color: #c7cdd0;
+}
+
+.content .btn-danger:hover{
+    color: #ba0003;
+    background-color: #9ba3a7;
+    border-color: #c7cdd0;
+}
+
+.content .btn-danger:active {
+    color: #ba0003;
+    background-color: #9ba3a7;
+    border-color: #c7cdd0;
+}
+
+.content .btn-danger:focus{
+    color: #ba0003;
+    background-color: #9ba3a7;
+    border-color: #c7cdd0;
+    box-shadow: 0 0 0 .25rem rgba(203,21,23,.25);
+}
+
+.content .disabled{
+    background-color: #ba0003;
+    border-color: #ba0003;
+}
+
+/* Edit form control */
+.content .form-control:focus{
+    box-shadow: 0 0 0 .25rem rgba(203,21,23,.25);
+    border-color: rgba(203,21,23,.25);
+}
+
+/* Edit Progress Bar */ 
+
+#myBar{
+    background-color: #cb1517;
+}
+
+/* Home Page Edit */
+.content .card-img-top {
+    width: 80%;
+    margin-top: 2rem;
+}
+  
+.content .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    min-height: 14rem;
+}
+
+.row {
+    margin: 0;
+}
+
+.card-body{
+    margin-left: 2rem;
+}
+
+.img-fluid{
+    margin-left: 1rem;
+}
+
+/* Navbar Edit */
+.navbar .nav-link{
+    color: #fff;
+}
+
+.navbar .nav-link:hover{
+    color: #c7cdd0;
+}
+
+/*Footer */
+.bottom .navbar-brand{
+    color: #fff;
+    margin-left: 45%;
+}
+
+.sticky-bottom{
+    height: 3rem;
+}
